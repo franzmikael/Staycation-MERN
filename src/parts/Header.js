@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from 'elements/Button';
+import {Button} from 'elements';
 import IconText from 'parts/IconText';
 import { useLocation } from 'react-router-dom';
 
@@ -13,7 +13,7 @@ export default function Header(props) {
   return (
     <header className="spacing-sm">
 			<div className="container">
-				<nav className="navbar navbar-expand-lg navbar-light">
+				<nav className="navbar navbar-expand-lg navbar-light" style={{padding: "0.5rem 0"}}>
 					<IconText/>
 					<div className="collapse navbar-collapse">
 						<ul className="navbar-nav ml-auto">
